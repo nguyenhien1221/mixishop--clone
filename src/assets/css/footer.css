@@ -1,0 +1,95 @@
+
+.footer{
+    width: 100%;
+    background-color: white;
+    padding: 35px 14px 50px;
+    box-shadow: 2px 0px 10px rgba(27, 27, 27, 0.5);
+    bottom: 0;
+}
+
+.footer-des{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-aboutus{
+    width: 300px;
+    margin-right: 50px;
+}
+.footer-aboutus h5{
+    font-size: 1.6rem;
+    color: rgb(114, 114, 114);
+
+}
+
+.footer-title{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.footer-category{
+    margin-right: 50px;
+}
+.category-item{
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #007784;
+    font-weight: 700;
+}
+.category-item:hover{
+    color: blueviolet;
+}
+.footer-info{
+    margin-right: 50px;
+}
+.info-item{
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #007784;
+    font-weight: 700;
+}
+.info-item:hover{
+    color: blueviolet;
+}
+
+.footer-support h5{
+    font-size: 1.6rem;
+    color: #666;
+}
+
+.support-socail{
+    display: flex;
+    margin-top: 30px;
+}
+
+.footer-support{
+    flex-basis: 33.3333%;
+}
+.footer-support i{
+    font-size: 4rem;
+    color: rgb(114, 114, 114);
+    margin-right: 10px;
+}
+
+.footer-copyright{
+    display: flex;
+    justify-content: space-between;
+    padding: 14px;
+    font-size: 1.6rem;
+    height: 75px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 0px 2px rgba(27, 27, 27, 0.5);
+}
+
+.footer-copyright span{
+    font-weight: 700;
+    color: rgba(0,0,0,0.8);
+
+}
+
+.cloner{
+    font-weight: 800;
+    color: black;
+    font-size: 1.6rem;
+}

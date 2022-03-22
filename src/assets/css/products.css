@@ -1,0 +1,90 @@
+.category-wrapper{
+    padding: 20px ;
+}
+
+.filter{
+    margin: 15px ;
+}
+
+.filter-btn{
+    margin-right: 20px;
+    padding: 10px 20px;
+    font-size: 1.6rem;
+    color: #007784;
+    border: 1px solid #007784;
+    border-radius: 3px;
+    background-color: transparent;
+    transition: 0.3s;
+}
+
+.filter-btn:hover{
+    cursor: pointer;
+    background-color: #007784;
+    color: white;
+}
+
+.cards-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-wrapper{
+    position: relative;
+    width: 280px;
+    height: 400px;
+    margin: 20px 5px;
+    font-size: 2rem;
+    justify-content: center;
+    padding: 10px;
+    text-align: left;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(27, 27, 27, 0.5) ;
+    overflow: hidden;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+.card-wrapper img{
+    height: 60%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.card-body{
+    margin: 10px 0 ;
+}
+.card-title{
+    color: #007784;
+    font-size: 2.2rem;
+    margin-top: 10px;
+    width: 240px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 25px;
+    height: 75px;
+}
+
+.card-price{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.card-text{
+    font-size: 2.4rem;
+    font-weight: 800;
+}
+.card-btn{
+    padding: 5px 15px;
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #007784;
+    border: 1px solid #007784;
+    border-radius: 3px;
+    background-color: transparent;
+    transition: 0.3s;
+}
+.card-btn:hover{
+    background-color: #007784;
+    color: white;
+}

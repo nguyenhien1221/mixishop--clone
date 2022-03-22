@@ -1,0 +1,42 @@
+.socail-wrap{
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 0;
+    box-shadow: 0px 0px 10px rgba(27, 27, 27, 0.5);
+}
+
+.socail-video{
+    width: 100%;
+    object-fit: fill;
+    align-self: center;
+    z-index: -1;
+}
+
+.video-text{
+    position: absolute;
+    z-index: 100;
+    color: white;
+    text-align: center;
+}
+
+.video-title{
+    font-size: 4rem;
+    font-style: bold;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.video-des{
+    font-size: 2rem;
+
+}
+
+.video-control{
+    margin-top:20px;
+}
+
