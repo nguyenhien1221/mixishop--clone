@@ -77,7 +77,7 @@ function Navbar() {
                     </li>
                 </ul>
                 <div className='cart'> 
-                    <h2 className='cart-title'>Giỏ hàng: {state.length} </h2>
+                    <h2 className='cart-title'>{state.length} </h2>
                     <Link to='/cart'>
                         <i class='bx bxs-cart-alt'></i>
                     </Link>

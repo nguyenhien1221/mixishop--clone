@@ -60,19 +60,19 @@ const Products = () => {
         <div className="category-wrapper">
           <div className="filter">
             <button className="filter-btn" onClick={()=>setFilter(data)}>
-              All
+              Tất cả
             </button>
             <button className="filter-btn" onClick={()=>filterProduct("men's clothing")}>
-              Men's Clothing
+              Thời trang nam
               </button>
             <button className="filter-btn" onClick={()=>filterProduct("women's clothing")}>
-              Women's Clothing
+              Thời trang nữ
             </button>
             <button className="filter-btn" onClick={()=>filterProduct("jewelery")}>
-              Jewelery
+              Trang sức
             </button>
             <button className="filter-btn" onClick={()=>filterProduct("electronics")}>
-              Electronic
+              Đồ điện tử
             </button>
           </div>
           <div className="cards-wrapper">
