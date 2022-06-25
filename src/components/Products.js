@@ -23,7 +23,8 @@ const Products = () => {
       }
 
       return () => {
-        componentMounted = false;
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+        componentMounted = true;
       };
     };
 
@@ -64,7 +65,7 @@ const Products = () => {
             </button>
             <button className="filter-btn" onClick={()=>filterProduct("men's clothing")}>
               Thời trang nam
-              </button>
+            </button>
             <button className="filter-btn" onClick={()=>filterProduct("women's clothing")}>
               Thời trang nữ
             </button>

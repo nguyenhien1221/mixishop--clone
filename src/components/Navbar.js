@@ -1,4 +1,3 @@
-import  click  from '@testing-library/user-event/dist/click'
 import React , {useState} from 'react'
 import {Link , NavLink} from 'react-router-dom'
 import { useSelector } from 'react-redux'
@@ -14,28 +13,32 @@ function Navbar() {
     const handleClick = () => setClick(!click)
     const closeMobileMenu = () => setClick(false)
 
+    const scrollTop = () =>{
+        window.scrollTo(0, 0);
+    }
+
     return (
     <>
         <nav className='navbar'>
-            <div className='navbar-container'>
+            <div onClick={scrollTop} className='navbar-container'>
                 <Link to="/home" className="navbar-logo">
-                    <img src={logo}></img>
+                    <img src={logo} alt='logo'></img>
                 </Link>
                 <div className='menu-icon' onClick={handleClick}>
                     <i className={click ? 'bx bx-x' : 'bx bx-menu'}></i>
                 </div> 
                 <ul className={click ? 'nav-menu active' : 'nav-menu'} >
-                    <li className='nav-item' >
+                    <li onClick={scrollTop} className='nav-item' >
                         <NavLink to='/home' className='nav-link' activeClassName='active' onClick={closeMobileMenu}>
                             Trang chủ
                         </NavLink>
                     </li>
-                    <li className='nav-item drop-down-nav' >
+                    <li onClick={scrollTop} className='nav-item drop-down-nav' >
                         <Link to='/category' className='nav-link' onClick={closeMobileMenu} >
                             Danh mục sản phẩm
                             <i className='bx bx-chevron-down'></i>
                         </Link>
-                        <div className='sub-nav slide-in-top'>
+                        <div onClick={scrollTop} className='sub-nav slide-in-top'>
                             <ul >
                                 <li className='sub-nav-item'>
                                     <Link to='/category' className='sub-nav-link' onClick={closeMobileMenu}>
@@ -70,7 +73,7 @@ function Navbar() {
                             </ul>
                         </div>
                     </li>
-                    <li className='nav-item'>
+                    <li onClick={scrollTop} className='nav-item'>
                         <NavLink to='/noti' className='nav-link' activeClassName='active' onClick={closeMobileMenu}>
                             Thông báo
                         </NavLink>

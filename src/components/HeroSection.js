@@ -1,7 +1,6 @@
 import React from 'react'
-import banner from '../assets/‫img/banner.png'
 import '../assets/css/herosection.css'
-import {Link, useNavigate} from 'react-router-dom'
+import {useNavigate} from 'react-router-dom'
 
 function HeroSection() {
   let navigate = useNavigate();
