@@ -21,7 +21,7 @@ function Navbar() {
     <>
         <nav className='navbar'>
             <div onClick={scrollTop} className='navbar-container'>
-                <Link to="/home" className="navbar-logo">
+                <Link to="/" className="navbar-logo">
                     <img src={logo} alt='logo'></img>
                 </Link>
                 <div className='menu-icon' onClick={handleClick}>
@@ -29,7 +29,7 @@ function Navbar() {
                 </div> 
                 <ul className={click ? 'nav-menu active' : 'nav-menu'} >
                     <li onClick={scrollTop} className='nav-item' >
-                        <NavLink to='/home' className='nav-link' activeClassName='active' onClick={closeMobileMenu}>
+                        <NavLink to='/' className='nav-link' activeClassName='active' onClick={closeMobileMenu}>
                             Trang chủ
                         </NavLink>
                     </li>
