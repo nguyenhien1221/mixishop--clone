@@ -23,7 +23,7 @@ const Products = () => {
 
       return () => {
         // eslint-disable-next-line react-hooks/exhaustive-deps
-        componentMounted = true;
+        componentMounted = false;
       };
     };
 

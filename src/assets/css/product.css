@@ -9,6 +9,10 @@
     border-radius: 3px;
     box-shadow: 0px 0px 5px rgba(27, 27, 27, 0.5) ;
 }
+.product-detail-inner:hover {
+    cursor: pointer;
+    scale: 1.5;
+}
 
 .product-detail-img{
     flex-basis: 50%;

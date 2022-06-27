@@ -4,6 +4,10 @@ import '../assets/css/footer.css'
 
 
 function Footer() {
+
+    const srollTop = () => {
+        window.scrollTo(0, 0);
+    }
   return (
     <>
         <div className='footer'>
@@ -19,48 +23,48 @@ function Footer() {
                 <div className='footer-category'>
                     <h1 className='footer-title'>Danh mục sản phẩm</h1>
                     <ul className='category-list'>
-                        <li className='category-item'>
-                            <Link to='/home' className='category-link'>Áo CSGO </Link>
+                        <li onClick={srollTop} className='category-item'>
+                            <Link to='category' className='category-link'>Áo CSGO </Link>
                         </li>
 
-                        <li className='category-item'>
-                            <Link to='/home' className='category-link'>Áo Mixi</Link>
+                        <li onClick={srollTop} className='category-item'>
+                            <Link to='category' className='category-link'>Áo Mixi</Link>
                         </li>
 
-                        <li className='category-item'>
-                            <Link to='/home' className='category-link'>Áo PUBG</Link>
+                        <li onClick={srollTop} className='category-item'>
+                            <Link to='category' className='category-link'>Áo PUBG</Link>
                         </li>
 
-                        <li className='category-item'>
-                            <Link to='/home' className='category-link'>Áo Refund Gaming</Link>
+                        <li onClick={srollTop} className='category-item'>
+                            <Link to='category' className='category-link'>Áo Refund Gaming</Link>
                         </li>
 
-                        <li className='category-item'>
-                            <Link to='/home' className='category-link'>Đồ lưu niệm Mixi </Link>
+                        <li onClick={srollTop} className='category-item'>
+                            <Link to='category' className='category-link'>Đồ lưu niệm Mixi </Link>
                         </li>
 
-                        <li className='category-item'>
-                            <Link to='/home' className='category-link'>Áo ba lỗ </Link>
+                        <li onClick={srollTop} className='category-item'>
+                            <Link to='category' className='category-link'>Áo ba lỗ </Link>
                         </li>
                     </ul>
                 </div>
                 <div className='footer-info'>
                     <h1 className='footer-title'>Thông tin</h1>
                     <ul className='info-list'>
-                        <li className='info-item'>
-                            <Link to='/home' className='info-link'>Giới thiệu</Link>
+                        <li onClick={srollTop} className='info-item'>
+                            <Link to='/noti' className='info-link'>Giới thiệu</Link>
                         </li>
 
-                        <li className='info-item'>
-                            <Link to='/home' className='info-link'> Chính sách bảo mật</Link>
+                        <li onClick={srollTop} className='info-item'>
+                            <Link to='/privacy' className='info-link'> Chính sách bảo mật</Link>
                         </li>
 
-                        <li className='info-item'>
-                            <Link to='/home' className='info-link'>Điều Khoản</Link>
+                        <li onClick={srollTop} className='info-item'>
+                            <Link to='/term' className='info-link'>Điều Khoản</Link>
                         </li>
 
-                        <li className='info-item'>
-                            <Link to='/home' className='info-link'>Sitemap</Link>
+                        <li onClick={srollTop} className='info-item'>
+                            <Link to='/' className='info-link'>Sitemap</Link>
                         </li>
                     </ul>
                 </div>

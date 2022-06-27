@@ -34,10 +34,10 @@ function Navbar() {
                         </NavLink>
                     </li>
                     <li onClick={scrollTop} className='nav-item drop-down-nav' >
-                        <Link to='/category' className='nav-link' onClick={closeMobileMenu} >
+                        <div className='nav-link' onClick={closeMobileMenu} >
                             Danh mục sản phẩm
                             <i className='bx bx-chevron-down'></i>
-                        </Link>
+                        </div>
                         <div onClick={scrollTop} className='sub-nav slide-in-top'>
                             <ul >
                                 <li className='sub-nav-item'>

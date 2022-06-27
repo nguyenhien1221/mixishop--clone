@@ -1,0 +1,34 @@
+.term-wrapper{
+    padding: 60px 30px 30px;
+}
+
+.term-title {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 13px;
+}
+.term-sub-title{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.term-text {
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+    line-height: 2.5rem;
+}
+.term-text a:hover {
+    color: #007784;
+}
+.term-list {
+    list-style: disc ;
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+    line-height: 2.5rem;
+    margin-left: 20px;
+}
+.flex{
+    display: flex;
+}
