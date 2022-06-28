@@ -3,7 +3,7 @@
 
 .privacy-wrapper {
     padding: 60px 30px 30px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Quicksand", sans-serif;
 }
 
 .privacy-title, .privacy-text, .privacy-sub-title {
@@ -22,7 +22,7 @@
 
 .privacy-text {
     font-size: 1.8rem;
-    font-weight: 300;
+    font-weight: 400;
     margin-bottom: 20px;
     line-height: 2.5rem;
 }

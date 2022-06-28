@@ -38,6 +38,7 @@
 }
 
 .nav-item{
+    padding: 0 10px;
     font-weight: 800;
     line-height: 70px;
     margin-left: 16px;
