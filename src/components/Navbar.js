@@ -33,7 +33,7 @@ function Navbar() {
                             Trang chủ
                         </NavLink>
                     </li>
-                    <li onClick={scrollTop} className='nav-item drop-down-nav' >
+                    <li className='nav-item drop-down-nav' >
                         <div className='nav-link' onClick={closeMobileMenu} >
                             Danh mục sản phẩm
                             <i className='bx bx-chevron-down'></i>
