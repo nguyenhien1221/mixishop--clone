@@ -9,7 +9,7 @@ const Privacy = () => {
         <h2 className="privacy-title">Chúng tôi là ai</h2>
 
         <p className="privacy-text flex">Địa chỉ website là:  
-            <a className="privacy-text" href="https://shop.mixigaming.com"> https://shop.mixigaming.com </a>
+            <a className="privacy-text" target='_blank' href="https://shop.mixigaming.com" rel="noreferrer"> https://shop.mixigaming.com </a>
         </p>
 
         <h2 className="privacy-title">Thông tin cá nhân nào bị thu thập và tại sao thu thập</h2>
