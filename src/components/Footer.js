@@ -62,10 +62,6 @@ function Footer() {
                         <li onClick={srollTop} className='info-item'>
                             <Link to='/term' className='info-link'>Điều Khoản</Link>
                         </li>
-
-                        <li onClick={srollTop} className='info-item'>
-                            <Link to='/' className='info-link'>Sitemap</Link>
-                        </li>
                     </ul>
                 </div>
                 <div className='footer-support'>
