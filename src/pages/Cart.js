@@ -58,7 +58,7 @@ const Cart = () => {
                         <div className='payment-bill'>
 
                         </div>
-                        <NavLink to="/home" className="payment-btn">
+                        <NavLink to="/" className="payment-btn">
                             Thanh toán
                         </NavLink>
                 </div>
