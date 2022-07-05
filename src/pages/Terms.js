@@ -107,7 +107,7 @@ const Terms = () => {
           cũng như hỗ trợ cho bạn.
         </p>
 
-        <h2 className="term-title">Những gì mà chúng tôi có thể chia sẽ được với bạn</h2>
+        <h2 className="term-title">Những gì mà chúng tôi có thể chia sẻ được với bạn</h2>
 
         <p className="term-text">
           In this section you should list who you’re sharing data with, and for
