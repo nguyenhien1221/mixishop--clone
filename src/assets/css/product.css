@@ -92,3 +92,51 @@
     background-color: #005963;
     color: white;
 }
+
+.noti{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    right: 20px;
+    width: 300px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    padding: 15px 10px;
+    z-index: 9;
+    animation: shownoti 0.4s;
+}
+.noti-text > h4 {
+    font-size: 25px;
+    color:#003d24;
+}
+.noti-text > h5 {
+    font-size: 14px ;
+    font-weight: 400;
+}
+.noti-control > i{
+    padding: 3px;
+    font-size: 30px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+.noti-control:hover{
+    cursor: pointer;
+    background-color: #00e087;
+    border-radius: 5px;
+}
+.hide {
+    display: none;
+}
+
+
+@keyframes shownoti{
+    from{
+        right: -150px;
+        opacity: 0.3;
+    }
+    to{
+        right: 20px;
+        opacity: 1;
+    }
+}

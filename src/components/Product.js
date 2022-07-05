@@ -12,12 +12,25 @@ const Product = () => {
     const {id} = useParams();
     const [product, setProduct] = useState([]);
     const [loading, setLoading] = useState(false);
+    const [show, setShow] = useState(false);
 
+    // add product to cart
     const dispatch = useDispatch();
     const addProduct = (product) => {
+        setShow(true);
         dispatch(addCart(product));
+        hideNotify();
     }
 
+    // hide noti
+    const hideNotify = () => {
+        const shows = setTimeout(() => {
+          setShow(false)
+        }, 3000);
+        return () => clearTimeout(shows);
+      };
+
+    //get product from api
     useEffect(() => {
         const getProduct = async () => {
             setLoading(true);
@@ -40,7 +53,7 @@ const Product = () => {
                     <Skeleton height={25} width={150} />
                     <Skeleton height={50} />
                     <Skeleton height={150} />
-                    <Skeleton height={50} width={100} />
+                    <Skeleton height={50} width={100}  />
                     <Skeleton height={50} width={100} style={{marginLeft:6}} />
                 </div>
             </>
@@ -49,6 +62,15 @@ const Product = () => {
     const ShowProduct = () => {
         return(
             <div className='product-detail-wrapper'>
+                <div className={show ? 'noti' : 'hide' }>
+                    <div className='noti-text'>
+                        <h4>Success !</h4> 
+                        <h5>Added to cart</h5>
+                    </div>
+                    <div onClick={() => setShow(false)} className='noti-control'>
+                        <i class='bx bx-x'></i> 
+                    </div>
+                </div> 
                 <div className='product-detail-inner'>
                     <div className="product-detail-img">
                         <img src={product.image} alt={product.title}/>
