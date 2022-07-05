@@ -84,7 +84,9 @@ const Product = () => {
                             Rating: {product.rating && product.rating.rate} 
                             <i className="fa fa-star"></i>
                         </p>
-                        <p className="product-detail-des">{product.description}</p>
+                        <div className='descript-wrapper'>
+                            <p className="product-detail-des">{product.description}</p>
+                        </div>
                         <h3 className="product-detail-price">
                             $ {product.price}
                         </h3>
