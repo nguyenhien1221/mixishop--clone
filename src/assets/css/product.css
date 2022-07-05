@@ -36,7 +36,7 @@
 }
 .product-detail-title{
     color: #007784;
-    font-size: 3.7rem;
+    font-size: 3.2rem;
     margin-bottom: 20px;
     font-weight: 900;
 }
@@ -103,7 +103,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: absolute;
+    position: fixed;
     right: 20px;
     width: 300px;
     background-color: aquamarine;
