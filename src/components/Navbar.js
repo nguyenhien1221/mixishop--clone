@@ -80,10 +80,18 @@ function Navbar() {
                         </NavLink>
                     </li>
                 </ul>
-                <div className='cart'> 
-                    <h2 className='cart-title'>{state.length} </h2>
+
+                <div className='search-bar'>
+                    <input className='search-input' type='text' placeholder='Tìm kiếm...' />
+                    <button className='search-btn'>
+                        <i class='bx bx-search-alt-2'></i>
+                    </button>
+                </div>
+
+                <div className='cart'>
+                    <h2 className='cart-leght'>{state.length} </h2>
                     <Link to='/cart'>
-                        <i class='bx bxs-cart-alt'></i>
+                        <i className='bx bxs-cart-alt'></i>
                     </Link>
                 </div> 
             </div>
