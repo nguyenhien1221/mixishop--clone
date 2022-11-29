@@ -69,10 +69,10 @@ function Footer() {
                     <h5>Mọi thắc mắc và góp ý xin vui lòng liên hệ Fanpage và Instagram</h5>
                     <div className='support-socail'>
                         <a href='https://www.facebook.com/MixiShop-182674912385853/' target='_blank' rel="noreferrer">
-                            <i class='bx bxl-facebook-circle '></i>
+                            <i className='bx bxl-facebook-circle '></i>
                         </a>
                         <a href='https://www.instagram.com/mixi.shop/' target='_blank' rel="noreferrer">
-                            <i class='bx bxl-instagram-alt ' ></i>
+                            <i className='bx bxl-instagram-alt ' ></i>
                         </a>
                     </div>
                 </div>    

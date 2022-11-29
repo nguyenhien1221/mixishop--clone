@@ -37,11 +37,11 @@ const Cart = () => {
                         </p>
                         <div className='cart-control'>
                             <button className="cart-btn" onClick={()=>handleDel(product)}>
-                                <i class='bx bx-minus'></i>
+                                <i className='bx bx-minus'></i>
                             </button>
                             <button className='cart-product-qty'>{product.qty}</button>
                             <button className="cart-btn" onClick={()=> handleAdd(product)}>
-                                <i class='bx bx-plus'></i>
+                                <i className='bx bx-plus'></i>
                             </button>
                         </div>
                     </div>

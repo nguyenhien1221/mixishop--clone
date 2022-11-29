@@ -68,7 +68,7 @@ const Product = () => {
                         <h5>Added to cart</h5>
                     </div>
                     <div onClick={() => setShow(false)} className='noti-control'>
-                        <i class='bx bx-x'></i> 
+                        <i className='bx bx-x'></i> 
                     </div>
                 </div> 
                 <div className='product-detail-inner'>

@@ -4,7 +4,7 @@ import "../assets/css/terms.css";
 const Terms = () => {
   return (
     <div className="term-wrapper">
-      <div class="term-inner">
+      <div className="term-inner">
         <p className="term-text">
           Chúng tôi thu thập thông tin về bạn trong quá trình thanh toán tại cửa
           hàng của chúng tôi.

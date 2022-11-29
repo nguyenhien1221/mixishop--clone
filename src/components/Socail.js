@@ -12,12 +12,12 @@ function Socail() {
                 <h5 className='video-des'>Cập nhật thông tin về sản phẩm mới</h5>
                 <div className='video-control'>
                     <button className='primary-btn'>
-                        <a href='https://www.facebook.com/MixiShop-182674912385853/' target="_blank">
+                        <a href='https://www.facebook.com/MixiShop-182674912385853/' target="_blank" rel="noreferrer">
                         FANPAGE
                         </a>
                     </button>
                     <button className='secondary-btn'>
-                        <a href='https://www.instagram.com/mixi.shop/' target="_blank">
+                        <a href='https://www.instagram.com/mixi.shop/' target="_blank" rel="noreferrer">
                         INSTAGRAM
                         </a>
                     </button>

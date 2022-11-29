@@ -1,10 +1,10 @@
 import React from 'react'
-import '../assets/css/herosection.css'
 import {useNavigate} from 'react-router-dom'
+import '../assets/css/herosection.css'
 
-function HeroSection() {
+const HeroSection = () => {
   let navigate = useNavigate();
-  function handleClick() {
+  const handleClick = () => {
     navigate('/category');
   };
   return (

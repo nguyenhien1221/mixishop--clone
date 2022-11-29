@@ -18,7 +18,7 @@ function Notification() {
                 có khớp với các số này hay không nhé 
             </p>
             <div className='noti-phone'>
-                <i class='bx bx-phone-call'></i>
+                <i className='bx bx-phone-call'></i>
                 Chi tiết xin liên hệ Hotline: 0822221992 / 0922222016
             </div>
             <p>

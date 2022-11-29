@@ -80,10 +80,10 @@ const Products = () => {
               return (
                   <div class="card-wrapper" key={product.id}>
                         <img src={product.image} class="card-img-top" alt={product.title} height="250px" />
-                        <div class="card-body">
-                          <h5 class="card-title ">{product.title.substring(0,40)}...</h5>
+                        <div className="card-body">
+                          <h5 className="card-title ">{product.title.substring(0,40)}...</h5>
                           <div className="card-price">
-                            <p class="card-text ">
+                            <p className="card-text ">
                               $ {product.price}
                             </p>
                               <NavLink to={`/products/${product.id}`} className="card-btn">

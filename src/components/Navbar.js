@@ -30,7 +30,7 @@ function Navbar() {
                 </div> 
                 <ul className={click ? 'nav-menu active' : 'nav-menu'} >
                     <li onClick={scrollTop} className='nav-item' >
-                        <NavLink to='/' className='nav-link' activeClassName='active' onClick={closeMobileMenu}>
+                        <NavLink to='/' className='nav-link' activeclassname='active' onClick={closeMobileMenu}>
                             Trang chủ
                         </NavLink>
                     </li>
@@ -75,7 +75,7 @@ function Navbar() {
                         </div>
                     </li>
                     <li onClick={scrollTop} className='nav-item'>
-                        <NavLink to='/noti' className='nav-link' activeClassName='active' onClick={closeMobileMenu}>
+                        <NavLink to='/noti' className='nav-link' activeclassname='active' onClick={closeMobileMenu}>
                             Thông báo
                         </NavLink>
                     </li>
@@ -84,7 +84,7 @@ function Navbar() {
                 <div className='search-bar'>
                     <input className='search-input' type='text' placeholder='Tìm kiếm...' />
                     <button className='search-btn'>
-                        <i class='bx bx-search-alt-2'></i>
+                        <i className='bx bx-search-alt-2'></i>
                     </button>
                 </div>
 
